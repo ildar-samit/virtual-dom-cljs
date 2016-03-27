@@ -5,7 +5,7 @@ A Clojure library for constructing virtual DOMs using [virtual-dom](https://gith
 ## Installation
 
 ```clojure
-[ildar/virtual-dom "0.3.0-SNAPSHOT"]
+[ildar/virtual-dom "0.3.1-SNAPSHOT"]
 ```
 
 Then require `virtual-dom.core` or, if you'd like a more reactive experience, `virtual-dom.elm`.
