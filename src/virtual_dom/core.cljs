@@ -1,7 +1,7 @@
-(ns vdom.core
+(ns virtual-dom.core
   (:require-macros [cljs.core.async.macros :refer [go go-loop]])
   (:require [cljs.core.async :refer [chan <! put!]]
-            vdom.js))
+            virtual-dom.js))
 
 (def diff js/VDOM.diff)
 (def patch js/VDOM.patch)

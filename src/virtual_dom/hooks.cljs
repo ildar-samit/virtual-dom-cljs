@@ -1,4 +1,4 @@
-(ns vdom.hooks)
+(ns virtual-dom.hooks)
 
 (deftype Hook [f]
   Object

@@ -1,5 +1,5 @@
-src/vdom/vdom.min.js: src/vdom/vdom.js
-	node_modules/.bin/uglify -s src/vdom/vdom.js -o src/vdom/vdom.min.js
+src/virtual_dom/virtual-dom.min.js: src/virtual_dom/virtual-dom.js
+	node_modules/.bin/uglifyjs src/virtual_dom/virtual-dom.js -o src/virtual_dom/virtual-dom.min.js
 
-src/vdom/vdom.js: src/vdom/vdom-main.js
-	node_modules/.bin/browserify src/vdom/vdom-main.js -o src/vdom/vdom.js
+src/virtual_dom/virtual-dom.js: src/virtual_dom/virtual-dom-main.js
+	node_modules/.bin/browserify src/virtual_dom/virtual-dom-main.js -o src/virtual_dom/virtual-dom.js
